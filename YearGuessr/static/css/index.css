@@ -145,3 +145,21 @@ body {
 .single-image-container {
   width: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+  }
+  .title.is-1 {
+    font-size: 2rem;
+  }
+  .title.is-3 {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
